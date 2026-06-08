@@ -1,5 +1,4 @@
 #Word Search (Backtracking Grid)
-
 board = [
  ['A','B','C','E'],
  ['S','F','C','S'],
@@ -7,7 +6,6 @@ board = [
 ]
 
 word = "ABCCED"
-
 def dfs(i, j, k):
     if k == len(word):
         return True
